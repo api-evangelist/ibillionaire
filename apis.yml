@@ -1,7 +1,23 @@
 aid: ibillionaire
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ibillionaire.png
 name: iBillionaire
-description: iBillionaire is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: iBillionaire was a fintech startup (a 500 Global portfolio company) that built a mobile
+  investing app tracking the public equity holdings of billionaire investors, and later launched the
+  iBillionaire Index (ticker IBLN via the Direxion iBillionaire ETF). As of this enrichment pass the
+  company is defunct - the ibillionaire.com domain is parked and listed for sale (307 redirect to
+  forsale.godaddy.com), no docs/api/developer subdomains resolve, and there is no public developer
+  program, API, SDK, or documentation surface to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/ibillionaire/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,9 +25,11 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-domain-status: parked-for-sale
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 apis: []
@@ -23,3 +41,8 @@ maintainers:
 common:
 - type: Website
   url: https://ibillionaire.com
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
