@@ -23,12 +23,12 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ibillionaire.png
 name: iBillionaire
-description: iBillionaire was a fintech startup (a 500 Global portfolio company) that built a mobile
-  investing app tracking the public equity holdings of billionaire investors, and later launched the
-  iBillionaire Index (ticker IBLN via the Direxion iBillionaire ETF). As of this enrichment pass the
-  company is defunct - the ibillionaire.com domain is parked and listed for sale (307 redirect to
-  forsale.godaddy.com), no docs/api/developer subdomains resolve, and there is no public developer
-  program, API, SDK, or documentation surface to enrich.
+description: iBillionaire was a fintech startup (a 500 Global portfolio company) that built a mobile investing
+  app tracking the public equity holdings of billionaire investors, and later launched the iBillionaire
+  Index (ticker IBLN via the Direxion iBillionaire ETF). As of this enrichment pass the company is defunct
+  - the ibillionaire.com domain is parked and listed for sale (307 redirect to forsale.godaddy.com), no
+  docs/api/developer subdomains resolve, and there is no public developer program, API, SDK, or documentation
+  surface to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/ibillionaire/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -40,9 +40,10 @@ x-status: defunct
 x-domain-status: parked-for-sale
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-20'
+modified: '2026-09-15'
 tags:
 - Company
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
